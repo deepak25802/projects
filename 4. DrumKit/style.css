@@ -1,0 +1,66 @@
+/* CSS reset  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(112, 112, 225);
+}
+/* styling the main heading */
+.main-heading{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 0px  rgb(223, 27, 227);
+}
+/* styling the buttons  */
+.btn-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10% 0%;
+}
+.btn{
+    height: 140px;
+    width: 140px;
+    margin: 0px 5px;
+    padding: 5px;
+    border: 10px solid rgb(82, 82, 248);
+    border-radius: 10px;
+    color: rgb(178, 0, 181);
+    text-shadow: 3px 0px white;
+    font-size: 5em;
+}
+
+#w{
+    background-image: url("./images/tom1.png");
+}
+#a{
+    background-image: url("./images/tom2.png");
+
+}
+#s{
+    background-image: url("./images/tom3.png");
+
+}
+#d{
+    background-image: url("./images/tom4.png");
+
+}
+#j{
+    background-image: url("./images/snare.png");
+
+}
+#k{
+    background-image: url("./images/crash.png");
+}
+#l{
+    background-image: url("./images/kick.png");
+}
+
+/* pressed class for the buttons when pressed */
+.pressed{
+    box-shadow: 3px 3px 10px  white ;
+    opacity: 0.9;
+}

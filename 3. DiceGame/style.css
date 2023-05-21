@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* styling the main-heading */
+.main-heading {
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+/* styling the images */
+.images-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+}
+
+.img {
+    padding: 20px;
+    margin: 10px 40px;
+}
+
+
+/* Styling the winners text */
+.winner {
+    text-align: center;
+    font-size: 4rem;
+}
+
+/* Styling the button */
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.btn button {
+    padding: 5px;
+    font-weight: 600;
+    width: 600px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+    /* styling the main-heading */
+    .main-heading {
+        font-size: 4rem;
+    }
+
+    /* styling the images */
+    .img {
+        width: 40%;
+    }
+
+    /* Styling the winners text */
+    .winner {
+        font-size: 3rem;
+    }
+
+    /* Styling the button */
+    .btn {
+        padding: 30px 0px;
+    }
+    .btn button {
+        padding: 5px;
+        width: 300px;
+        border-radius: 10px;
+    }
+}

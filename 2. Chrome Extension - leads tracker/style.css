@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 450px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#input-el{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 3px;
+}
+.btn {
+    margin: 2px 8px;
+    background-color: rgb(73, 167, 73);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 3px;
+}   
+#delete-btn{
+    background-color: white;
+    color: rgb(73, 167, 73);
+    padding: 8px 18px;
+    border: 2px solid rgb(73, 167, 73);
+}
+#ul-el li{
+    margin:0px 10px;
+    list-style: none;
+}
+#ul-el li a{
+    color:rgb(73, 167, 73);
+    font-size: 1.2rem;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(11, 103, 11, 0.739);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-heading{
+    color: rgb(255, 187, 0);
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 20px;
+}
+.heads{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15px;
+}
+.btn button{
+    background-color: goldenrod;
+    color: rgba(11, 103, 11, 0.739);
+    font-weight: bolder;
+    padding: 7px 0px ;
+    width: 200px;
+    font-stretch: expanded;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 5px;
+}
